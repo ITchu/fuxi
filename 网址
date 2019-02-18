@@ -6,3 +6,22 @@ ui-router:http://bubkoo.com/2014/01/02/angular/ui-router/guide/index/
 内容要求文档:https://docs.qq.com/sheet/BkkcAb24KEmQ0rvvEb4Z8JAR0xmd1G1ojnpQ4?opendocxfrom=admin#BB08J2
 接口文档：http://apidoc.jitusoft.cn/index.do#/ffff-1508461083284-192168561-0002/module/list
 组件通信evenbus:https://www.cnblogs.com/yuwenjing0727/p/7115743.html
+
+##问题总结
+手机端调试
+
+1.内核转换
+	
+  强制装换成x5内核  debugmm.qq.com/?forcex5=true
+  只适用x5内核     Debugx5.qq.com
+    
+2.进入x5调试页面->代理（勾选强制走直联）&& 信息（打开vConsole调试功能）
+
+
+问题总结
+  1.微信的浏览器缓存问题
+  2.access_token过期的问题
+  3.对称加密和非对称加密
+  4.上传图片或视频对其进行压缩
+  5.生成随机二维码
+  6.websocket刷新页面时断开连接的解决方案
